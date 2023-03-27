@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --padding: 1rem;
+}
+
+[class*="col"] {
+    min-height: 68px;
+    color: white;
+    border: 1px solid white;
+    background-color: #006CFA;
+}
+
+.contents {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding {
+    padding: var(--padding);
+}
+
+.padding [class*="col"] {
+    border: 1px solid #006CFA;
+}
+
+.nested {
+    background-color: #00E165;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}

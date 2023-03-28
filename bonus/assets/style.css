@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --border: #787878;
+}
+
+body {
+    background-color: whitesmoke;
+    padding: 3rem 1rem;
+    background-image: url(img/tetris.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.block {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-top: 3px solid rgba(255, 255, 255, 0.4);
+    border-left: 3px solid rgba(255, 255, 255, 0.4);
+    border-right: 3px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.6);
+}
+
+/* colors */
+
+.grey {
+    background-color: #787878;
+}
+
+.robin-egg-blue {
+    background-color: #00CDCD;
+}
+
+.dark-violet {
+    background-color: #9A00CDff;
+}
+
+.citrine {
+    background-color: #CDCD00ff;
+}
+
+.lime-green {
+    background-color: #00CD00ff;
+}
+
+.engineering-orange {
+    background-color: #CD0000ff;
+}
+
+.alloy-orange {
+    background-color: #CD6600ff;
+}
+
+.medium-blue {
+    background-color: #0000CDff;
+}
